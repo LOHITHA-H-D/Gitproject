@@ -1,4 +1,4 @@
-Docker Commands for Build Steps inJenkins
+Docker Commands for Build Steps in Jenkins
 
 sudo docker rm -f $(sudo docker ps -a -q)
 sudo docker build /home/workspace/Demojob -t staging
